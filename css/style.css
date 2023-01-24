@@ -40,7 +40,11 @@ header{
 a{
     color: white;
     text-decoration: none;
-    
+}
+
+p{
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 .log{
@@ -54,31 +58,29 @@ a{
     padding: 70px 0;
 }
 
-h1{
+h1, h2, h3, h4, h5{
     margin-bottom: 5%;
 }
 
 .samesect{
-    height: 200px;
+    height: 300px;
     padding: 20px 0;
     display: flex;
+    justify-items: center;
 }
 
 .window1{
     width: 60%;
     margin: auto;
-    padding-bottom: 5%;
 }
 .windows1{
     height: 100%;
-    width: 14%;
-    background-color: blue;
+    width: 20%;
 }
 
 .windows2{
-    height: 100%;
-    width: 10%;
-    background-color: pink;
+    max-width: 10%;
+    text-align: left;
 }
 
 .flex{
@@ -90,6 +92,23 @@ h1{
     background-color: lightgray;
 }
 
+.frog{
+    background-image: url(/img/item1.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.wizard{
+    background-image: url(/img/item2.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.slottie{
+    background-image: url(/img/item3.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
 .bigwindow{
     width: 24%;
     height: 100%;
