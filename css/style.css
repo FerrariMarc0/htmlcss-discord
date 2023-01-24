@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /*-----------------
         HEADER
 -------------------*/
@@ -43,7 +46,8 @@ a{
 }
 
 p{
-    text-align: left;
+    text-align: center;
+    font-size: 14px;
 }
 
 .log{
@@ -57,8 +61,13 @@ p{
     padding: 70px 0;
 }
 
-h1, h2, h3, h4{
-    margin-bottom: 5%;
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+h5{
+    padding-top: 20px;
 }
 
 .samesect{
@@ -69,7 +78,7 @@ h1, h2, h3, h4{
 }
 
 .window1{
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 .windows1{
@@ -78,7 +87,7 @@ h1, h2, h3, h4{
 }
 
 .windows2{
-    max-width: 10%;
+    max-width: 20%;
     text-align: left;
 }
 
@@ -111,7 +120,7 @@ h1, h2, h3, h4{
 
 
 .sect3{
-    height: 1000px;
+    height: 700px;
     text-align: center;
 }
 
