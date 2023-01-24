@@ -14,7 +14,7 @@ body{
         HEADER
 -------------------*/
 header{
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
     color: white;
@@ -101,19 +101,19 @@ h5{
 }
 
 .frog{
-    background-image: url(/img/item1.svg);
+    background-image: url(../img/item1.svg);
     background-size: contain;
     background-repeat:no-repeat;
 }
 
 .wizard{
-    background-image: url(/img/item2.svg);
+    background-image: url(../img/item2.svg);
     background-size: contain;
     background-repeat:no-repeat;
 }
 
 .slottie{
-    background-image: url(/img/item3.svg);
+    background-image: url(../img/item3.svg);
     background-size: contain;
     background-repeat:no-repeat;
 }
@@ -128,7 +128,7 @@ h5{
     max-width: 50%;
     height: 60%;
     margin: auto;
-    background-image: url(/img/item4-big.svg);
+    background-image: url(../img/item4-big.svg);
     background-size: contain;
     background-repeat:no-repeat;
 }
@@ -137,7 +137,7 @@ h5{
     width: 15%;
     height: 25px;
     margin: auto;
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
