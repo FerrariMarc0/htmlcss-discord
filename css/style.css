@@ -43,8 +43,7 @@ a{
 }
 
 p{
-    text-align: center;
-    margin-bottom: 10%;
+    text-align: left;
 }
 
 .log{
@@ -58,7 +57,7 @@ p{
     padding: 70px 0;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4{
     margin-bottom: 5%;
 }
 
@@ -109,16 +108,29 @@ h1, h2, h3, h4, h5{
     background-size: contain;
     background-repeat:no-repeat;
 }
-.bigwindow{
-    width: 24%;
-    height: 100%;
-    margin: auto;
-    background-color: green;
-}
+
 
 .sect3{
-    height: 300px;
-    padding: 20px 0;
+    height: 1000px;
+    text-align: center;
+}
+
+.bigwindow{
+    max-width: 50%;
+    height: 60%;
+    margin: auto;
+    background-image: url(/img/item4-big.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.stars{
+    width: 15%;
+    height: 25px;
+    margin: auto;
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*-----------------
         FOOTER
@@ -126,24 +138,18 @@ h1, h2, h3, h4, h5{
 .five{
     background-color: black;
     height: 300px;
-    padding: 5px 200px 20px 200px;
-    border-bottom: 1px solid white;
+    padding: 50px;
+    justify-content: space-around;
 }
 
 .box{
     height: 100%;
-    width: 5%;
-    border: 1px dashed white;
-}
-
-.salmonbox{
-    background-color: salmon;
     width: 10%;
 }
 
-.water{
-    background-color: lightgreen;
-    
+.salmonbox{
+    color: blue;
+    width: 10%;
 }
 
 footer{
@@ -152,13 +158,9 @@ footer{
 }
 
 .foot{
-    width: 24%;
+    width: 70%;
     height: 50%;
-    background-color: lightseagreen;
     padding: 10px 0;
     justify-content: space-between;
-}
-
-.pink{
-    background-color: pink;
+    border-top: 1px solid white;
 }
